@@ -1,0 +1,47 @@
+:root{
+    --container-height: 80px;
+}
+
+[class*="container"]{
+    min-height: 80px;
+    /* border: 2px dashed peru; */
+}
+
+header{
+    color: antiquewhite;
+    line-height: var(--container-height);
+}
+
+.header-color{
+    background-color: #212121
+}
+
+.green{
+    background-color: #1ABC9C;
+}
+
+[class*="row"] {
+    min-height: 80px;
+    /* border: 2px dashed rgb(84, 76, 202); */
+}
+
+[class*="col"] {
+    min-height: 80px;
+    /* border: 2px dashed rgb(26, 179, 161); */
+}
+
+[class*="box"] {
+    text-align: center;
+    min-height: 80px;
+    /* border: 2px dashed rgb(166, 191, 23); */
+}
+
+.avatar-img{
+    width: 50%;
+}
+
+ .box>img{
+    /* height: 100px; */
+    max-width: 250px;
+} 
+
