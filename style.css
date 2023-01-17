@@ -18,6 +18,13 @@ header{
 
 .green{
     background-color: #1ABC9C;
+    color: aliceblue;
+}
+
+.grey{
+    background-color: grey;
+    color: antiquewhite;
+
 }
 
 [class*="row"] {
@@ -32,7 +39,7 @@ header{
 
 [class*="box"] {
     text-align: center;
-    min-height: 80px;
+    /* min-height: 80px; */
     /* border: 2px dashed rgb(166, 191, 23); */
 }
 
@@ -45,3 +52,17 @@ header{
     max-width: 250px;
 } 
 
+input[type=text] {
+    border: none;
+    border-bottom: 2px solid lightgray;
+}
+
+input[type=mail] {
+    border: none;
+    border-bottom: 2px solid lightgray;
+}
+
+textarea{
+    border: none;
+        border-bottom: 2px solid lightgray;
+}
